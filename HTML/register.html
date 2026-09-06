@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - LearnHub</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <h1>LearnHub</h1>
+
+        <div class="nav_links">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="course_details.html">Course Details</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Register Section -->
+    <section class="register_section">
+
+        <div class="register_container">
+
+            <h2>Create Your Account</h2>
+
+            <p>Join LearnHub and start your learning journey.</p>
+
+            <form>
+
+                <div class="form_group">
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+
+                <div class="form_group">
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <div class="form_group">
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Create a password"
+                        required
+                    >
+                </div>
+
+
+                <div class="form_group">
+                    <label for="confirm_password">Confirm Password</label>
+
+                    <input
+                        type="password"
+                        id="confirm_password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+                </div>
+
+
+                <button type="submit" class="register_button">
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <p class="login_text">
+                Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <script src="../JS/script.js"></script>
+
+</body>
+
+</html>
